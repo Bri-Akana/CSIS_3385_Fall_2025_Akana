@@ -19,7 +19,7 @@
                    placeholder="Enter Username" title="No spaces or special characters." required />
 
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&].*"
+            <input type="password" id="password" name="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*?&]).+$"
                    minlength="8" title="Must contain one uppercase, lowercase, number and special character and at least 8 or more characters."
                    placeholder="Enter Password" required/>
 
